@@ -1,3 +1,48 @@
 extends _layout/layout.pug
 block main 
-	.abc HELLO CUDA
+	section.home_slider
+		.container
+			.row
+				.col
+					h1 Lorem ipsum
+					p
+						a.btn.btn-m(href="#") Click
+	section.home_services
+		.container
+			.row
+				.col
+					h2 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure minima pariatur ratione quos sequi, hic sint veniam iusto voluptatibus, labore enim beatae saepe ullam. Tempora dolorem laboriosam suscipit quaerat nihil?
+			.row
+				- for (var x = 1; x < 5; x++)
+					.col-md
+						img(src="../img/home_icon_" + x + ".png", alt="")
+						h3 Lorem ipsum
+						p abc sd gd sdf sd sdfkjl sdf jslk d fs
+	.section.home_person
+		.container
+			.row
+				.col
+					h2 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					p Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+			.row
+				.col-sm-6.col-md-3
+					img(src="../img/home_person_1.png", alt="")
+					h3 Lorem ipsum
+					p wire kay fa day a 
+					p abc sd gd sdf sd sdfkjl sdf jslk d fs
+				.col-sm-6.col-md-3
+					img(src="../img/home_person_1.png", alt="")
+					h3 Lorem ipsum
+					p wire kay fa day a 
+					p abc sd gd sdf sd sdfkjl sdf jslk d fs
+				.col-sm-6.col-md-3
+					img(src="../img/home_person_1.png", alt="")
+					h3 Lorem ipsum
+					p wire kay fa day a 
+					p abc sd gd sdf sd sdfkjl sdf jslk d fs
+				.col-sm-6.col-md-3
+					img(src="../img/home_person_1.png", alt="")
+					h3 Lorem ipsum
+					p wire kay fa day a 
+					p abc sd gd sdf sd sdfkjl sdf jslk d fs
